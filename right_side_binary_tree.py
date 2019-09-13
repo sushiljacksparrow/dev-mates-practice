@@ -58,4 +58,7 @@ if __name__ == '__main__':
     input = [1, 2, 3, 4, 5, 7, None, None, None, 6]
     # level_order_traversal(input)
     # queue_based_level_order_traversal(input)
-    right_tree_view(input, 0, 1, [0])
+    root = 0
+    level = 1
+    max_level = [0]
+    right_tree_view(input, root, level, max_level)
