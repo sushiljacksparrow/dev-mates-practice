@@ -21,6 +21,7 @@ def queue_bfs(start, end, bank):
                     distance[choice] = distance[temp] + 1
     return res
 
+
 if __name__ == '__main__':
     start = 'AAAAACCC'
     end = 'AACCCCCC'
