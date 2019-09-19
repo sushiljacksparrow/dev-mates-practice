@@ -9,7 +9,6 @@ def generate(n, current, left, right):
             generate(n, current + ')', left, right-1)
 
 
-
 if __name__ == '__main__':
     n = 4
     generate(n, '', n, n)
